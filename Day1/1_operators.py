@@ -57,3 +57,50 @@ print (not True) # False
 print (not False) # True
 
 
+a = 1
+b = 15
+c = 15
+
+if a > b or b == c:
+    print("Hello World")
+
+# Assigment Operator (=, +=, -=, *=, /=)
+message = "Hello World"
+b = 5
+b = b + 5
+print(b) #10
+
+b += 5
+print(b) #10
+
+b += 5
+print(b) # 15
+
+b -= 5
+print(b) # 10
+
+#Membership Operators ('in' and 'not in')
+# The result of membership operation is also True or False
+# Membership operators are used in the sequential data (iterables) e.g. list,array, tuple etc.
+vowels = ['a','e', 'i', 'o', 'u']
+print("a" in vowels) # True
+print("A" in vowels) #Fales
+print("A" not in vowels) # True
+print("a" not in vowels) # False
+
+
+# Identify Opertor ('is' and 'is not')
+# The result of identity opeations are also in True/False
+# It checks whether the two objects are same or not
+
+
+a = 4
+b = 4
+print(a is b) # True, Same object
+
+
+a = []
+b = []
+print(a is b) # False, diffrent object
+
+
