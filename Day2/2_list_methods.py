@@ -73,3 +73,23 @@ print(data) # [1,2,3,4,5,6,7]
 
 data.sort(reverse=True)
 print(data) # [7, 6, 5, 3, 2, 1]
+
+
+# reverse()
+data = [3, 5, 1, 6, 2, 7]
+data.reverse()
+print(data) # [7, 2, 6, 1, 5, 3]
+
+
+# copy()
+a = [1, 2, 3]
+b = a 
+print(a) # [1, 2, 3]
+print(b) # [1, 2, 3]
+print(a is b) # True
+
+b = a.copy()
+print(a) # [1, 2, 3]
+print(b) # [1, 2, 3]
+print(a is b) # False
+
