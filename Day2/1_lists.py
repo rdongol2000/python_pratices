@@ -42,3 +42,10 @@ print(data[-8:-2]) # ["c", "d", "e", "f", "g", "h"]  {set from 8th position from
 print(data[-3:-7]) # []
 print(data[2:9:2]) # ["b", "d", "f", "h"] ['c', 'e', 'g', 'i']
 
+
+
+print(data[3:9]) # ["d", "e", "f", "g", "h", "i"]
+print(data[8:2]) # []
+print(data[5:]) # ["f", "g", "h", "i", "j"]
+print(data[:4] # ["a", "b", "c", "d"]
+print(data[-9:-7]) # []
